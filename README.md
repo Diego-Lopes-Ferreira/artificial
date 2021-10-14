@@ -21,6 +21,3 @@ $ python teste/server.py
 $ python teste/client.py
 ```
 
-## Diego
-Hello there, I'm Diego!
-
