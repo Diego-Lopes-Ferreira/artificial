@@ -1,0 +1,45 @@
+div.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+div.video_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+
+video {
+  height: calc(100vh - 2rem);
+  width: auto;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+a.go_back {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  border: none;
+  color: black;
+}
+
+a.go_back:hover {
+  border: 1px solid black;
+}
+
+p.legenda {
+  position: absolute;
+  bottom: 2rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  background-color: #ffffff77;
+}
